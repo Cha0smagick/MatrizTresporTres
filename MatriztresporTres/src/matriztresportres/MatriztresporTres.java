@@ -22,10 +22,10 @@ public class MatriztresporTres {
 
         for (int j = 0; j < Array1.length; j++) {
             System.out.print("\n");
-            for (int i = 0; i < Array1.length; i++) {
+            for (String[] Array11 : Array1) {
                 String numero = JOptionPane.showInputDialog("Matriz ");
-                Array1[i][j] = numero;
-                System.out.print("\t" + Array1[i][j]);
+                Array11[j] = numero;
+                System.out.print("\t" + Array11[j]);
             }
         }
         String buscar = JOptionPane.showInputDialog("Que numero quiere buscar");
@@ -33,7 +33,7 @@ public class MatriztresporTres {
             for (int j = 0; j < Array1.length; j++) {
                 if (buscar.equals(Array1[i][j])) {
 
-                    JOptionPane.showMessageDialog(null, "Numero " + " encontrado en la posicion" + "[" + i + "]" + "[" + j + "]");
+                    JOptionPane.showMessageDialog(null, "Numero " + " encontrado en la posicion" + "[" + j + "]" + "[" + i + "]");
                 }
             }
         }
