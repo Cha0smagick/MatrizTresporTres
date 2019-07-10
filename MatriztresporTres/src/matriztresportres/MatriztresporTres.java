@@ -23,7 +23,7 @@ public class MatriztresporTres {
         for (int j = 0; j < Array1.length; j++) {
             System.out.print("\n");
             for (String[] Array11 : Array1) {
-                String numero = JOptionPane.showInputDialog("Matriz ");
+                String numero = JOptionPane.showInputDialog("Matriz");
                 Array11[j] = numero;
                 System.out.print("\t" + Array11[j]);
             }
