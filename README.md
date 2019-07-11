@@ -1,2 +1,2 @@
-# EjercicioIntercalarArrays
-Un ejercicio simple que muestra, a través de dos inputs, una salida con los dos inputs intercalados en un solo string
+# Matriz 3x3
+Un ejercicio simple que muestra como hacer matrices en java
